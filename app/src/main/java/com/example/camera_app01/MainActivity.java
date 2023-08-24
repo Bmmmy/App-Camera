@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "無法完成拍照", Toast.LENGTH_SHORT).show();
                     }
                 }else{
-                    Toast.makeText(MainActivity.this, "無法完成拍照哭", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "取消拍照", Toast.LENGTH_SHORT).show();
                 }
             }
     );
