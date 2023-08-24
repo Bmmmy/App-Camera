@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "完成拍照", Toast.LENGTH_SHORT).show();
                         //Bundle extras = data.getExtras();Bitmap photo = (Bitmap) extras.get("data");
                     }else{
-                        Toast.makeText(MainActivity.this, "無法完成拍照-1", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "無法完成拍照", Toast.LENGTH_SHORT).show();
                     }
                 }else{
-                    Toast.makeText(MainActivity.this, "無法完成拍照-2", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "無法完成拍照哭", Toast.LENGTH_SHORT).show();
                 }
             }
     );
